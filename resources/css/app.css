@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ck-content a {
+    color: #2563EB;
+    text-decoration: underline;
+}
+nav , a,button,label {
+text-transform: capitalize;
+}

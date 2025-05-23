@@ -1,0 +1,10 @@
+"devserve": "sudo systemctl start xampp & npm run dev & php artisan serve --host=0.0.0.0 --port=8000"
+  server: {
+        host: '0.0.0.0',      // écouter sur toutes les interfaces
+        port: 5173,           // ou le port que tu utilises
+        strictPort: true,     // échoue si le port est occupé
+        hmr: {
+          host: '192.168.133.205',  // l’IP de ton PC sur le hotspot
+          port: 5173,
+        },
+      },
